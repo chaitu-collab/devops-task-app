@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: task-service
-        image: task-service:latest
+        image: task-service:v1
         imagePullPolicy: Never
         ports:
         - containerPort: 5000
